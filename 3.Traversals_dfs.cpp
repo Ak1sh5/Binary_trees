@@ -1,8 +1,12 @@
 //Preorder (node,left,right)
 //Postorder (left,right,node)
 //Inorder   (left,node,right)
-#include <bits/stdc++.h>
 
+//TC:O(n)  Reason: We are traversing N nodes and every node is visited exactly once.
+//SC: Space is needed for the recursion stack. In the worst case (skewed tree), space complexity can be O(N).
+
+//Recursion way
+#include <bits/stdc++.h>
 using namespace std;
 
 struct node {
@@ -50,3 +54,6 @@ int main() {
   }
   return 0;
 }
+//Iterative way
+//same TC and SC, Reason of SC: In the worst case, (a tree with every node having a single right child and left-subtree)
+

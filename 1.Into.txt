@@ -1,0 +1,9 @@
+A tree is a hierarchical data structure. A binary tress has 2 childs at max.
+Root, child , leaf node.Leaf node is the none which doesnt have any childerens.
+Subtree.
+Types of BT: 
+-->Full BT       :either 0 or 2 childern
+--> Complete BT  :All levels are completely filled except last level and last level has all the node as left as possible.
+-->Perfect BT    :All leaf nodes are at the same level
+-->Balanced BT   :Height of the tree can be max of log(n) , n is teh number of nodes.
+-->Degenrate BT  :Line kinda like linked list.

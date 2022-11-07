@@ -1,4 +1,6 @@
 //Preorder (node,left,right)
+//Postorder (left,right,node)
+//Inorder   (left,node,right)
 #include <bits/stdc++.h>
 
 using namespace std;

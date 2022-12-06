@@ -1,4 +1,4 @@
-//TC: O(n) SC: O(n) in worst case of a skewed tree
+//TC: O(n) SC :O(n) in wost case where everything is stored in the queue at the beginning.
 class Solution {
 public:
     vector<vector<int>> zigzagLevelOrder(TreeNode* root) {

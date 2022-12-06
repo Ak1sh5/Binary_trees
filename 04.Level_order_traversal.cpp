@@ -1,4 +1,4 @@
-//TC: O(n) since every node is visited just once SC: O(n) in wost case where everything is stored int the queue at the beginning.
+//TC: O(n) since every node is visited just once SC: O(n) in wost case where everything is stored in the queue at the beginning.
 class Solution {
 public:
     vector<vector<int>> levelOrder(TreeNode* root) {
